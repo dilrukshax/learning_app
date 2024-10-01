@@ -70,6 +70,7 @@ class StudentHomePage extends StatelessWidget {
                   title: Text('View Schedule'),
                   onTap: () {
                     // Navigate to schedule viewing
+                    Navigator.pushNamed(context, '/tutorList');
                   },
                 ),
                 // Add more features as needed
